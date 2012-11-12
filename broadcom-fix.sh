@@ -1,4 +1,12 @@
 #!/bin/bash
+echo "#===================================================================#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# (C)Jeffrey Dean Moncrieff ,2012
+#===================================================================#
+"
 echo "This is a broadcom fix for bcm43x it enabled N networks\n"
  mkdir broadcom-fix
 cd broadcom-fix
@@ -32,4 +40,4 @@ fi
 	 sudo depmod; 
 	 sudo modprobe wl 
 	rm -rf broadcom-fix
-	echo "Done You should now be able to access wifi N Networks with speed"
+	echo "Done You should now be able to access wifi N Networks with speed Please Reboot;"
